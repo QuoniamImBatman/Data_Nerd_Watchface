@@ -1,0 +1,112 @@
+{
+    "author": "ethanj.hand@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dnw",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "health"
+        ],
+        "displayName": "Data-Nerd Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/clouds_round.bmp",
+                    "name": "CLOUDS_ROUND_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/thunder_round.bmp",
+                    "name": "THUNDER_ROUND_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear_round.bmp",
+                    "name": "CLEAR_ROUND_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain_round.bmp",
+                    "name": "RAIN_ROUND_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/connection.bmp",
+                    "name": "CONNECTION_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/visitorFontSmaller.ttf",
+                    "name": "VISITOR_TEXT_14",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.bmp",
+                    "name": "BACKGROUND_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/blank.bmp",
+                    "name": "BLANK_IMAGE",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/visitorFont.ttf",
+                    "name": "VISITOR_TEXT_18",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/arDestineFont.ttf",
+                    "name": "AR_Destine_Time_26",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "a579cda8-03dc-4407-9dcf-70d63ad97f85",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
